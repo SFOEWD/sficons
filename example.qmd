@@ -1,0 +1,9 @@
+---
+title: "Sficons Example"
+---
+
+## Heading
+
+{{< sficons >}}
+
+
