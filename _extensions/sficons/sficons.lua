@@ -15,7 +15,7 @@ local str = pandoc.utils.stringify
 return {
   ["sficon"] = function(args, kwargs)
     local icon = str(args[1])
-    local height = str(kwargs["size"])
+    local size = str(kwargs["size"])
     local color = str(kwargs["color"])
     local label = str(kwargs["label"])
     local class = str(kwargs["class"])
